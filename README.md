@@ -87,14 +87,14 @@ If you discover any security related issues, please email brantwladichuk@gmail.c
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/BrantWladichuk/Sparkify.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/brant-wladichuk/sparkify.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/BrantWladichuk/Sparkify.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/BrantWladichuk/Sparkify.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/BrantWladichuk/Sparkify.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/brant-wladichuk/sparkify.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/BrantWladichuk/Sparkify
+[link-packagist]: https://packagist.org/packages/brant-wladichuk/sparkify
 [link-scrutinizer]: https://scrutinizer-ci.com/g/BrantWladichuk/Sparkify/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/BrantWladichuk/Sparkify
-[link-downloads]: https://packagist.org/packages/BrantWladichuk/Sparkify
+[link-downloads]: https://packagist.org/packages/brant-wladichuk/sparkify
 [link-author]: https://github.com/BrantWladichuk
