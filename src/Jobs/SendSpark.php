@@ -42,7 +42,7 @@ class SendSpark implements ShouldQueue
 
         curl_exec($curl);
 
-        $error    = curl_error($curl);
+        $error = curl_error($curl);
 
         curl_close($curl);
 
