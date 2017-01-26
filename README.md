@@ -12,7 +12,7 @@ This is a simple package for sending transactional (triggered) emails via the [S
 Via Composer
 
 ``` bash
-$ composer require BrantWladichuk/Sparkify
+$ composer require brant-wladichuk/sparkify
 ```
 
 ## Usage
