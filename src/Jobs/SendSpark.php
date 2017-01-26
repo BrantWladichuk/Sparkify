@@ -14,21 +14,11 @@ class SendSpark implements ShouldQueue
 
     private $postFields;
 
-    /**
-     * Create a new job instance.
-     *
-     * @return void
-     */
     public function __construct($postFields)
     {
         $this->postFields = $postFields;
     }
 
-    /**
-     * Execute the job.
-     *
-     * @return void
-     */
     public function handle()
     {
         $curl = curl_init();
@@ -50,7 +40,8 @@ class SendSpark implements ShouldQueue
             ]
         ]);
 
-        $response = curl_exec($curl);
+        curl_exec($curl);
+
         $error    = curl_error($curl);
 
         curl_close($curl);

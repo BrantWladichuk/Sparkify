@@ -14,7 +14,7 @@ class SparkifyServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/sparkify.php' => config_path('sparkify.php'),
+            __DIR__ . '/../config/sparkify.php' => config_path('sparkify.php'),
         ]);
     }
 

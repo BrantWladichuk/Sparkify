@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This is a simple package for sending transactional (triggered) emails via the (Spark Post)[https://www.sparkpost.com/] REST Api.
+This is a simple package for sending transactional (triggered) emails via the [Spark Post](https://www.sparkpost.com/) REST Api.
 
 ## Install
 
@@ -83,8 +83,7 @@ If you discover any security related issues, please email brantwladichuk@gmail.c
 
 ## Credits
 
-- [Brant Wladichuk][https://www.instagram.com/br4nt/]
-- [All Contributors][link-contributors]
+- [Brant Wladichuk](https://www.instagram.com/br4nt/)
 
 ## License
 
@@ -103,5 +102,3 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-code-quality]: https://scrutinizer-ci.com/g/BrantWladichuk/Sparkify
 [link-downloads]: https://packagist.org/packages/BrantWladichuk/Sparkify
 [link-author]: https://github.com/BrantWladichuk
-[link-contributors]: ../../contributors
-# Sparkify

@@ -1,18 +1,24 @@
 {
     "name": "BrantWladichuk/Sparkify",
     "type": "library",
-    "description": ":package_description",
+    "description": "This is a simple package for sending transactional (triggered) emails via the SparkPost REST Api.",
     "keywords": [
         "BrantWladichuk",
-        "Sparkify"
+        "Sparkify",
+        "Spark",
+        "Post",
+        "Sparkpost",
+        "emails",
+        "triggered",
+        "transactional"
     ],
     "homepage": "https://github.com/BrantWladichuk/Sparkify",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Brant Wladichuk",
+            "email": "brantwladichuk@gmail.com",
+            "homepage": "https://www.instagram.com/br4nt/",
             "role": "Developer"
         }
     ],
