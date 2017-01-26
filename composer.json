@@ -1,5 +1,5 @@
 {
-    "name": "BrantWladichuk/Sparkify",
+    "name": "brant-wladichuk/sparkify",
     "type": "library",
     "description": "This is a simple package for sending transactional (triggered) emails via the SparkPost REST Api.",
     "keywords": [
