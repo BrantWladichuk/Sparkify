@@ -1,7 +1,8 @@
 <?php
+
 namespace Brantwladichuk\Sparkify;
 
-use Brantwladichuk\Sparkify\Jobs\SendSpark;
+use BrantWladichuk\Sparkify\Jobs\SendSpark;
 
 trait Sparkable {
 
@@ -19,8 +20,7 @@ trait Sparkable {
         $lastNameColumn = config('sparkify.last_name_column');
         $emailColumn = config('sparkify.email_column');
 
-        // Add the user's name to the substitute_data
-        $substituteData['name'] = trim($this->{$firstNameColumn} . ' ' . $this->{$LastNameColumn});
+        $substituteData['name'] = trim($this->{$firstNameColumn} . ' ' . $this->{$lastNameColumn});
 
         $postFields = [
             "recipients" => [
@@ -30,7 +30,7 @@ trait Sparkable {
                 ]
             ],
             "content" => [
-                "template_id" => $template
+                "template_id" => $template_id
             ]
         ];
 
