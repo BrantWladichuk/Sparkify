@@ -27,11 +27,6 @@ $user->spark('template_id', [
 
 ## Setup
 
-Install
-``` bash
-$ composer require brant-wladichuk/sparkify
-```
-
 Add Service Provider to your app's config (config/app.php)
 
 ``` php
